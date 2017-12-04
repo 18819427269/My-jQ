@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	width: 100%;
+	height: 584px;
+	padding-top: 60px;
+	box-sizing: border-box;
+	background: #efefef;
+	position: relative;
+	top: -6px;
+}
+.content .content_top{
+	width: 424px;
+	height: 60px;
+	margin: 0 auto;
+	/*background: salmon;*/
+}
+.content_top .img_div1,.img_div2{
+	width: 276px;
+	height: 2px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.img_div1 img,.img_div2 img{
+	position: absolute;
+	top: 0;
+}
+.content .content_top .content_top_p1{
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.content .content_middle .content_top_p2{
+	width: 884px;
+	height: 40px;
+	margin: 0 auto;
+	font-size: 13px;
+	color: #525151;
+	margin-top: 32px;
+	text-align: center;
+}
+.content .content_bottom .con_bottom_ul{
+	width: 100%;
+	height: 230px;
+	margin-top: 46px;
+}
+.con_bottom_ul li{
+	float: left;
+	color: #626262;
+	text-align: center;
+	position: relative;
+}
+.con_bottom_ul li .first_p{
+	height: 44px;
+	line-height: 44px;
+}
+.content_bottom .more_bottom{
+	width: 130px;
+	height: 30px;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 3px;
+	background: #b7b7b7;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 44px;
+}
+.content_bottom .more_bottom:hover{
+	cursor: pointer;
+}
+.con_bottom_ul_div{
+	width: 256px;
+	height: 180px;
+	/*background: skyblue;*/
+	padding-top: 40px;
+	box-sizing: border-box;
+	background: rgba(0,110,35,.7);
+	position: absolute;
+	top: 0;
+	display: none;
+}
+.con_bottom_ul li:hover .con_bottom_ul_div{
+	display: block;
+}
+.con_bottom_ul li:hover .first_p{
+	background: #fff;
+}
+.con_bottom_ul_div .attroction_p{
+	font-size: 12px;
+	color: #ff2b2b;
+	letter-spacing: 2px;
+}
+.con_bottom_ul_div .take_pic{
+	width: 120px;
+	color: #fff;
+	transform: scale(0.8);
+	transform-origin: 0;
+	margin-left:80px ;
+	margin-top: 6px;
+
+}
+.con_bottom_ul_div input{
+	width: 66px;
+	height: 22px;
+	color: #26923e;
+	border: none;
+	background: #fff;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+.con_bottom_ul_div input:hover{
+	cursor:pointer;
+}
